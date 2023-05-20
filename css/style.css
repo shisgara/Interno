@@ -855,11 +855,6 @@ button {
     object-fit: cover;
 }
 
-
-.article-main__content {
-    max-width: 490px;
-}
-
 .article-main__subtitle {
     max-width: 400px;
     font-family: 'DM Serif Display', sans-serif;
