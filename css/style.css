@@ -768,7 +768,7 @@ button {
     margin-bottom: 200px;
 }
 
-.top-page__thumb{
+.top-page__thumb {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -853,6 +853,11 @@ button {
     top: 50%;
     left: 50%;
     object-fit: cover;
+}
+
+
+.article-main__content {
+    max-width: 490px;
 }
 
 .article-main__subtitle {
@@ -1922,6 +1927,7 @@ button {
     .top-page {
         margin-bottom: 100px;
     }
+
     .reply {
         margin-bottom: 100px;
     }
@@ -2136,14 +2142,15 @@ button {
     .pagination {
         margin-bottom: 50px;
     }
-    .contact__action{
+
+    .contact__action {
         gap: 14px;
     }
 
     .custom-checkbox+label {
         align-items: flex-start;
     }
-    
+
 
 
 }
@@ -2244,6 +2251,7 @@ button {
         flex-wrap: wrap;
         gap: 20px;
     }
+
     .post__thumb {
         height: 50vw;
     }
@@ -2300,12 +2308,21 @@ button {
         padding: 50px 40px;
         font-size: 20px;
     }
-    
+
 }
 
 
 
 @media screen and (max-width: 425px) {
+
+    .about {
+        margin-bottom: 50px;
+    }
+
+    .about__inner {
+        gap: 30px;
+    }
+
     .stat__inner {
         grid-template-columns: 1fr;
     }
@@ -2330,6 +2347,20 @@ button {
     .article-main__image {
         height: 300px;
 
+    }
+
+    .brands {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .stat {
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+
+    .articles, .email {
+        margin-bottom: 50px;
     }
 
 
