@@ -34,6 +34,12 @@ document.onkeydown = function (e) {
 }
 
 
+// PhoneMask
+
+mask('[data-tel-input]');
+
+
+
 // Swiper
 var swiper = new Swiper('.swiper-feedback', {
     navigation: {
