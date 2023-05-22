@@ -928,6 +928,7 @@ button {
 }
 
 .pagination span {
+    font-size: 16px;
     background-color: #F4F0EC;
     border-radius: 100%;
     display: flex;
@@ -939,6 +940,7 @@ button {
 }
 
 .pagination a {
+    font-size: 16px;
     background-color: #fff;
     border: 1px solid #CDA274;
     border-radius: 100%;
@@ -2359,7 +2361,8 @@ button {
         margin-bottom: 50px;
     }
 
-    .articles, .email {
+    .articles,
+    .email {
         margin-bottom: 50px;
     }
 
