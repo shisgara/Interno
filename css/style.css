@@ -14,7 +14,7 @@ body {
     color: #4d5053;
     height: 100%;
     background-image: url(../img/line.svg);
-    background-repeat: no-repeat-x;
+    background-repeat-x: no-repeat;
     background-position: center;
 }
 
