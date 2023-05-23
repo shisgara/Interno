@@ -46,6 +46,7 @@
                         </li>
                     </ul>
                 </nav>
+                <button class="header__burger" onclick="openModalMenu()"></button>
             </div>
         </div>
     </header>
@@ -81,6 +82,37 @@
                     <button class="modal-search__close" onclick="closeModal()" type="button">
                         <img src="img/search_close.svg" alt=""></button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="overlay" id="overlayMenu">
+        <div class="modal">
+            <div class="container">
+                <nav class="menu mobile-menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__item">
+                            <a class="logo" href="index.html">
+                                <img src="img/interno_logo.svg" alt="logotype_interno">
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="index.html" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="portfolio.html" class="menu__link">Our Projects</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="blog.html" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact.html" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="modal__close" onclick="closeModalMenu()"></button>
             </div>
         </div>
     </div>
